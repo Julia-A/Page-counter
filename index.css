@@ -1,0 +1,90 @@
+
+@font-face {
+    font-family: paprika;
+    src: url('Paprika-Regular.ttf');
+}
+
+
+body
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url('./reading.gif');
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family: paprika;
+    color: #BF9D69ff;
+    height: 100vh;
+}
+.container {
+    background: #451F17ff;
+    max-width: 80%;
+    height: 70%;
+    margin: auto;
+    border: 3px solid #BF9D69ff;
+    border-radius: 10px;
+    text-align: center;
+    padding: 1rem;
+    text-shadow: 0 0 5px #261815ff;
+}
+h1
+{
+    font-size: 3rem;
+    margin: 2rem 0rem;
+}
+h2
+{
+    margin: 0;
+    font-size: 5rem;
+}
+button
+{
+    font-family: inherit;
+    color: black;
+    padding: 1rem 2rem;
+    margin: 2rem 0rem 1rem 0rem;
+    font-size: 1.5rem;
+    outline: 1px solid #79868Aff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    display: block;
+    margin-inline: auto;
+    text-shadow: inherit;
+}
+button:hover
+{
+    opacity: 0.8;
+}
+#increment-btn
+{
+    background-color: #A07E6Aff;
+}
+#save-btn
+{
+    background-color: #C2B595ff;
+}
+#save-el
+{
+    font-size: 1.5rem;
+    text-transform: capitalize;
+}
+
+@media (max-width: 768px)
+{
+    h1
+    {
+        font-size: 2rem;
+        margin: 2rem 0rem;
+    }
+    h2
+    {
+        margin: 0;
+        font-size: 3rem;
+    }
+    button
+    {
+        font-size: 1rem;
+    }
+}
